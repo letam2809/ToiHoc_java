@@ -1,6 +1,6 @@
 package Package04;
 
-public class video30 {
+public class Video30 {
 	public static void main(String[] args) {
 		Product test = new Product();
 
