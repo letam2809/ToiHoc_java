@@ -3,7 +3,7 @@ package Package04;
 public class Student {
 private String name;
 private int age;
-
+private String address;
     public Student() {
 
     }
@@ -19,4 +19,12 @@ private int age;
         return this.age;
     }
 
+    public String getAddress() {
+        return address;
+    }
+
+    public void setAddress(String address) {
+        this.address = address;
+    }
+    
 }

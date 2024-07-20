@@ -5,8 +5,9 @@ public class Video28 {
         System.out.println("Run video 28");
         Student st1 = new Student();
 
-        Student st2 = new Student("Tam-DEV",32);
-        System.out.println("Name " + st2.getName() + " Age: " + st2.getAge());
+        Student st2 = new Student("Tam-DEV",32 );
+        System.out.println("Name " + st2.getName() + " Age: " + st2.getAge()
+        );
 
     }
 }
