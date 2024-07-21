@@ -8,5 +8,6 @@ public class SinhVien {
 
     public double getPrice(){
         return this.price*this.tax;
+    
     }
 }
