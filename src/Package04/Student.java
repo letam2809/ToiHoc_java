@@ -5,7 +5,11 @@ private String name; //>>>>thuộc tính của object
 private int age;//>>>>thuộc tính của object
 private String address;//>>>>thuộc tính của object
 
+    public Student (String name, int age){
+        this.name = name;
+        this.age = age;
 
+    }
     public String getName() {
         return name;
     }
